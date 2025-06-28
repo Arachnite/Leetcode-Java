@@ -1,5 +1,5 @@
 
-package P0001_TwoSum.TwoSum;
+package P0001_TwoSum;
 
 public class Solutions {
 
