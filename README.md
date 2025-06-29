@@ -1,6 +1,6 @@
 
 <h1 
-    align="center">LeetCode-Java
+    align="center">LeetCode Java
     <img align="center" src="https://skillicons.dev/icons?i=java" />
 </h1>
 
