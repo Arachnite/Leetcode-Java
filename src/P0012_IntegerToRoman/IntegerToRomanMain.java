@@ -18,8 +18,7 @@ public class IntegerToRomanMain {
             return;
         }
 
-        String romanNumeral = solution.intToRoman(num);
-        System.out.println("Roman numeral: " + romanNumeral);
+        System.out.println("Roman numeral: " + solution.intToRoman(num));
 
         sc.close();
     }
