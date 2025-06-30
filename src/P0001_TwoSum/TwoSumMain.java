@@ -56,5 +56,7 @@ public class TwoSumMain {
 
         int[] result = solution.twoSum(nums, target);
         System.out.println("Indices of the two numbers that add up to " + target + ": [" + (result[0] + 1) + ", " + (result[1] + 1) + "]");
+
+        sc.close();
     }
 }
