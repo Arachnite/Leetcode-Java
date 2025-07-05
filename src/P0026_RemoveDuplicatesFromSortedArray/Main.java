@@ -29,5 +29,7 @@ public class Main {
             System.out.print(nums[i] + ", ");
 
         }
+
+        sc.close();
     }
 }
