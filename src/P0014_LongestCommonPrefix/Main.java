@@ -3,7 +3,7 @@ package P0014_LongestCommonPrefix;
 
 import java.util.Scanner;
 
-public class LongestCommonPrefixMain {
+public class Main {
 
     public static void main(String[] args) {
 

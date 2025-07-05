@@ -3,7 +3,7 @@ package P0012_IntegerToRoman;
 
 import java.util.Scanner;
 
-public class IntegerToRomanMain {
+public class Main {
 
     public static void main(String[] args) {
 

@@ -3,7 +3,7 @@ package P0026_RemoveDuplicatesFromSortedArray;
 
 import java.util.Scanner;
 
-public class RemoveDuplicatesFromSortedArrayMain {
+public class Main {
 
     public static void main(String[] args) {
 

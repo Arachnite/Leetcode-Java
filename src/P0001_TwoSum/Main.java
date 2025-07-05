@@ -3,7 +3,7 @@ package P0001_TwoSum;
 
 import java.util.Scanner;
 
-public class TwoSumMain {
+public class Main {
 
     public static void main(String[] args) {
 

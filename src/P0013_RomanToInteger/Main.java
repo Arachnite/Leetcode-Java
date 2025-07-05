@@ -3,7 +3,7 @@ package P0013_RomanToInteger;
 
 import java.util.Scanner;
 
-public class RomanToIntegerMain {
+public class Main {
 
     public static void main(String[] args) {
 

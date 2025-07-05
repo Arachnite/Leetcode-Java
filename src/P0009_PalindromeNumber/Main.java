@@ -3,7 +3,7 @@ package P0009_PalindromeNumber;
 
 import java.util.Scanner;
 
-public class PalindromeNumberMain {
+public class Main {
 
     public static void main(String[] args) {
 
