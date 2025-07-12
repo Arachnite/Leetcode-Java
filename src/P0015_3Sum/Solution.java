@@ -23,39 +23,39 @@ public class Solution {
 
             }
 
-            int j = i + 1;
-            int k = nums.length - 1;
+            int ii = i + 1;
+            int iii = nums.length - 1;
 
-             while (j < k) {
-                int sum = nums[i] + nums[j] + nums[k];
+             while (ii < iii) {
+                int sum = nums[i] + nums[ii] + nums[iii];
 
                 if (sum == 0) {
 
-                    ans.add(Arrays.asList(nums[i], nums[j], nums[k]));
+                    ans.add(Arrays.asList(nums[i], nums[ii], nums[iii]));
 
 
-                    while (j < k && nums[j] == nums[j + 1]) {
+                    while (ii < iii && nums[ii] == nums[ii + 1]) {
 
-                        j++;
-
-                    }
-
-                    while (j < k && nums[k] == nums[k - 1]) {
-
-                        k--;
+                        ii++;
 
                     }
 
-                    j++;
-                    k--;
+                    while (ii < iii && nums[iii] == nums[iii - 1]) {
+
+                        iii--;
+
+                    }
+
+                    ii++;
+                    iii--;
 
                 } else if (sum < 0) {
 
-                    j++;
+                    ii++;
 
                 } else {
 
-                    k--;
+                    iii--;
 
                 }
             }
